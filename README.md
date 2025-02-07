@@ -1,5 +1,9 @@
 # remove-tv-ads
 
+Supprimer les pub d'une émission.
+
+Objectif : que ça reste rapide/performant. Faut penser que les émissions (pub comprises évidemment) peuvent durer 4h ou +.
+
 lien de la vidéo d'exmple [ici](https://gofile.io/d/dYhgJ9)
 
 ## Tests
@@ -27,3 +31,6 @@ python detect-ads3.py cpva.mkv logos  9,63s user 0,48s system 176% cpu 5,720 tot
 - [ ] mieux détecter l'endroit où est le logo dans l'image. plus précis.
 - [ ] ajouter secion tests plus précise
 
+## Idées autres
+
+- [ ] Trouver la pub en se basant sur le son du jingle.
