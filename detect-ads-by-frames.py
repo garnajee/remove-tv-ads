@@ -300,13 +300,13 @@ def main(video_path: str, logo_folder: str):
 if __name__ == "__main__":
     """
     Utilisation :
-      python detect_ads.py <chemin_vers_video> <dossier_logos>
+      python detect-ads-by-frames.py <chemin_vers_video> <dossier_logos>
     Exemple :
-      python detect_ads.py video.mp4 logos/
+      python detect-ads-by-frames.py video.mp4 logos/
     """
     import sys
     if len(sys.argv) < 3:
-        print("Usage: python detect_ads.py <video_path> <logo_folder>")
+        print("Usage: python detect-ads-by-frames.py <video_path> <logo_folder>")
         sys.exit(1)
 
     video_path_arg = sys.argv[1]
