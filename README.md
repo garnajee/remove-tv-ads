@@ -53,5 +53,6 @@ python detect-ads-about-pos.py cpva.mkv logos  9,63s user 0,48s system 176% cpu 
 
 ## Idées autres
 
+- [ ] Utiliser opencv avec GPU
 - [ ] Trouver la pub en se basant sur le son du jingle.
 
