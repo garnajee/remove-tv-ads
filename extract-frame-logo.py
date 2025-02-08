@@ -2,7 +2,7 @@
 
 import cv2
 
-video_path = "../output-mkv/cpva2.mkv"
+video_path = "cpva2.mkv"
 cap = cv2.VideoCapture(video_path)
 count = 0
 
@@ -19,7 +19,7 @@ while cap.isOpened():
     logo_region = frame[y:y+h, x:x+w]
     
     # Sauvegarder l'image de la ROI
-    cv2.imwrite(f"logos/frame_{count}.png", logo_region)
+    cv2.imwrite(f"logos-true-pos/frame_{count}.png", logo_region)
     count += 1
 
 cap.release()
