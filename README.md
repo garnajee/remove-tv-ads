@@ -9,6 +9,26 @@ lien de la vidéo d'exmple [ici](https://gofile.io/d/dYhgJ9)
 ## Tests
 
 - Pour le moment que pour M6.
+
+### Extrait de 49'
+
+- coordonnées du logo déterminées à la main.
+
+```bash
+$ time python detect-ads-by-frame.py cpva2.mkv logos-true-pos
+Vidéo : ../remove-tv-ads-local/output-mkv/cpva2.mkv
+- FPS = 25.0
+- Nombre total de frames = 73488
+- Durée minimale d'une pub (en frames) = 4500
+Aucune pub détectée lors de la première passe. Activation de la seconde passe...
+
+Segments publicitaires détectés :
+ - Pub de 00:11:20 à 00:18:33 (Durée: 432.3 s)
+python detect-ads-by-frame.py cpva2.mkv   35,00s user 1,94s system 127% cpu 29,058 total
+```
+
+### Extrait de 19'
+
 - la pub démarre à 2'19" (et quelques millisecondes en +) et fini à 10'25~26"
 
 ```bash
