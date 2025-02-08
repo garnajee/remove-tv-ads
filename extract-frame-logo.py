@@ -2,7 +2,7 @@
 
 import cv2
 
-video_path = "cpva2.mkv"
+video_path = "extrait.mkv"
 cap = cv2.VideoCapture(video_path)
 count = 0
 
