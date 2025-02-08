@@ -16,7 +16,7 @@ lien de la vidéo d'exmple [ici](https://gofile.io/d/dYhgJ9)
 
 ```bash
 $ time python detect-ads-by-frame.py cpva2.mkv logos-true-pos
-Vidéo : ../remove-tv-ads-local/output-mkv/cpva2.mkv
+Vidéo : cpva2.mkv
 - FPS = 25.0
 - Nombre total de frames = 73488
 - Durée minimale d'une pub (en frames) = 4500
