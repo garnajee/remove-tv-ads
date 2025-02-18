@@ -6,6 +6,13 @@ Objectif : que ça reste rapide/performant. Faut penser que les émissions (pub 
 
 lien de la vidéo d'exmple [ici](https://gofile.io/d/dYhgJ9)
 
+***
+
+- `detect-ads-about-pos.py` : détection du logo approximative - résultats corrects mais pas assez précis.
+- `detect-ads-by-frames.py` : détection du logo très précise. Résultats précis.
+
+***
+
 ## Tests
 
 - Pour le moment que pour M6.

@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+Script permettant de détecter une pub.
+La position du logo est détectetée approxiamtivement.
+Les résultats sont corrects mais non-précis.
+"""
+
 import cv2
 import os
 import numpy as np
@@ -9,7 +15,7 @@ from typing import List, Tuple
 # -------------------------------------------------------------
 # CONSTANTES ET PARAMÈTRES GLOBAUX
 # -------------------------------------------------------------
-SAMPLE_STEP = 10000       # Échantillonnage principal (toutes les 15 000 frames)
+SAMPLE_STEP = 15000       # Échantillonnage principal (toutes les 15 000 frames)
 COARSE_STEP = 8000        # Recherche "coarse" initiale (on recule/avance par 8000 frames)
 HALVING_STEPS = [4000, 2000, 1000, 500, 200, 100, 50, 25, 10, 5, 2, 1]
 LOGO_THRESHOLD = 0.8      # Seuil de détection pour matchTemplate (à ajuster)
